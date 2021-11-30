@@ -1,0 +1,2 @@
+Import-StartLayout -LayoutPath $PSScriptRoot\StartMenu_taskbar.xml -MountPath $env:SystemDrive\
+Copy-Item -Path $PSScriptRoot'\Internet Explorer.lnk' -Destination $env:SystemDrive'\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories'
