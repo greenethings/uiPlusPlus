@@ -157,8 +157,8 @@
 								 <!-- Choose USON Build Config -->
 					<Action Type="Input" Name="BuildConfig" Title="Available configurations">
 						<ChoiceInput Variable="BuildConfig" Question="Please choose build configuration " Default="None" >
-							<Choice Option="Standard USON" Value="Standard_USON"/>
-							<Choice Option="Exam Room USON" Value="ExamRoom"/>
+							<!-- Choice Option="Standard USON" Value="Standard_USON"/ -->
+							<Choice Option="Exam Room" Value="ExamRoom"/>
                             <Choice Option="TXO Region" Value="TXO_USON"/>
 							<Choice Option="West Region" Value="West_USON"/>
 							<Choice Option="Central Region" Value="Central_USON"/>
