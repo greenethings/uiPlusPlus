@@ -25,8 +25,8 @@
 		<!-- Application Id="Bomgar Button" Label="Bomgar Button" Name="USON - Desktop Shortcut - Bomgar Button v.1.0"/ -->
 
 	<!-- USON TXO Specific Software  -->
-	<Application Id="iKnowMed G2 Production (Texas Edition)" Label="iKnowMed G2 Production" Name="USON - Desktop Shortcut - iKnowMed G2 Production (Texas Edition) (Rev. 6)"/>
-	<Application Id="iKnowMed G2 Read-Only (Texas Edition)" Label="iKnowMed G2 Read-Only" Name="USON - Desktop Shortcut - iKnowMed G2 ReadOnly (Texas Edition) (Rev. 3)"/>
+	<Application Id="iKnowMed G2 Production (Texas Edition)" Label="iKnowMed G2 Production (Texas Edition)" Name="USON - Desktop Shortcut - iKnowMed G2 Production (Texas Edition) (Rev. 6)"/>
+	<Application Id="iKnowMed G2 Read-Only (Texas Edition)" Label="iKnowMed G2 Read-Only (Texas Edition)" Name="USON - Desktop Shortcut - iKnowMed G2 ReadOnly (Texas Edition) (Rev. 3)"/>
 	<Application Id="Remote Ops" Label="Remote Ops" Name="USON - Desktop Shortcut - RemoteOps x64 and x86"/>
 	<Application Id="MyApps" Label="MyApps" Name="USON - Desktop Shortcut - Citrix MyApps - v1.5"/>
 	<Application Id="RemedyForce" Label="RemedyForce" Name="USON - Desktop Shortcut - Remedy Force v.1.0"/>
