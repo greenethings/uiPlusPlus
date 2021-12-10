@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIpp Title="McKesson" Color = "#005A8C" DialogIcons="Yes">>
+  
+  <Software>
+  
+	 <!-- Default Software Most Regions -->
+    <Application Id="CyberArk" Label="CyberArk" Name="Global - CyberArk EPM agent upgrade v.11.5.2.309"/>
+    <Application Id="SentinelOne" Label="SentinelOne" Name="Corporate - SentinelOne Windows Agent 4.6.14.304"/>
+	<Application Id="GlobalProtect" Label="GlobalProtect" Name="Global - Palo Alto Networks GlobalProtect v.5.2.4 REV2"/>
+	<Application Id="CitrixWorkspace" Label="Citrix Workspace" Name="Global - Citrix Workspace v.19.12.2000.7"/>
+	<Application Id="Humanscale" Label="Humanscale DisplayLink/ Targus Dock Driver" Name="Humanscale DisplayLink Graphics Driver"/>
+	<Application Id="ZScaler" Label="ZScaler" Name="Corporate - Zscaler v.3.1.0.88"/>
+	<Application Id="Office365" Label="Office365" Name="Global - Microsoft Office 365 v2102 without Access Installed (32-Bit)"/>
+	<Application Id="RSASecurID" Label="RSA SecurID" Name="RSA SecurID Software Token 5.0.2.440"/>
+
+	<!-- USON Specific Software  -->
+	<Application Id="Bomgar" Label="Bomgar" Name="USON - Application - Bomgar Agent (Universal) v.21.1.1"/>
+	<Application Id="7-Zip" Label="7-Zip" Name="7-Zip 19.00"/>
+	<Application Id="Chrome 32bit" Label="Chrome 32bit" Name="Google Chrome 32bit for USON Task Sequence"/>
+	<Application Id="MS Office 2019 MSI (KMS Activation)" Label="MS Office 2019 MSI (KMS Activation)" Name="Global - Microsoft Office 2019 MSI (KMS Activation)"/>
+
+	<!-- USON TXO Specific Software  -->
+	<Application Id="Bomgarx" Label="Bomgarx" Name="USON - Application - Bomgar Agent (Universal) v.21.1.1"/>
+	<Application Id="7-Zipx" Label="7-Zipx" Name="7-Zip 19.00"/>
+	<Application Id="Chrome 32bitx" Label="Chrome 32bitx" Name="Google Chrome 32bit for USON Task Sequence"/>
+	<Application Id="MS Office 2019 MSI (KMS Activation)x" Label="MS Office 2019 MSI (KMS Activation)x" Name="Global - Microsoft Office 2019 MSI (KMS Activation)"/>
+	
+	<!-- MSHPS Specific Software  -->
+	<Application Id="Pulse Secure 9.1" Label="Pulse Secure 9.1" Name="Global - Pulse Secure LLC Pulse Secure v.9.1.2525"/>
+	<Application Id="Adobe Reader DC" Label="Adobe Reader DC" Name="Global - Adobe Systems Incorporated Adobe Reader DC v.20.013.20064"/>
+	
+	<!-- Canada Specific Software  -->
+	<Application Id="Pulse Secure 5.2" Label="Pulse Secure 5.2" Name="Pulse Secure 5.2"/>
+	<Application Id="PulseSecureInstallerService" Label="Pulse Secure Installer Service" Name="Pulse Secure Installer Service 9.0"/>
+	<Application Id="LAPS" Label="LAPS" Name="Microsoft Local Administrator Password Solution"/>
+	
+	<!-- Canada Multi Language  -->
+	<Application Id="7Zip" Label="7-Zip 19.00" Name="7-Zip 19.00"/>
+	<Application Id="AcrobatDC2019" Label="Acrobat DC 2019" Name="Acrobat DC 2019"/>
+	<Application Id="Antidote9" Label="Antidote 9 - Bilingual - McKesson" Name="Antidote 9 - Bilingual - McKesson"/>
+	<Application Id="Audacity" Label="Audacity 2.1.3" Name="Audacity 2.1.3"/>
+	<Application Id="BriaStretto" Label="Bria Stretto 50.8.6916" Name="Bria Stretto 50.8.6916"/>
+	<Application Id="CiscoIPCommunicator" Label="Cisco IP Communicator" Name="Cisco IP Communicator"/>
+	<Application Id="HorizonClient" Label="Horizon Client 4.5.0" Name="Horizon Client 4.5.0"/>
+	<Application Id="IBMOnDemand" Label="IBM OnDemand 9.5" Name="IBM OnDemand 9.5"/>
+	<Application Id="SAPGUI" Label="SAP GUI 7.60" Name="SAP GUI 7.60"/>
+	<!-- Canada English  -->
+	<Application Id="FacetPhone" Label="FacetPhone 6.0.820" Name="FacetPhone 6.0.820"/>			
+	<Application Id="IBMClientAccessEN" Label="IBM Client Access 7.1 - Complete - EN" Name="IBM Client Access 7.1 - Complete - EN"/>
+	<Application Id="MicrosoftProjectEN" Label="Microsoft Project Online Desktop Client 32Bit - 16.0.11929.20606 - English" Name="Microsoft Project Online Desktop Client 32Bit - 16.0.11929.20606 - English"/>
+	<Application Id="TechSmithSnagit" Label="TechSmith Snagit 19.0.1" Name="TechSmith Snagit 19.0.1"/>
+	<Application Id="MicrosoftVisioEN" Label="Microsoft Visio Pro 32Bit - 16.0.11929.20606 - English" Name="Microsoft Visio Pro 32Bit - 16.0.11929.20606 - English"/>
+	<!-- Canada French 	-->
+	<Application Id="IBMClientAccessFR" Label="IBM Client Access 7.1 - Complete - FR" Name="IBM Client Access 7.1 - Complete - FR"/>			
+	<Application Id="MicrosoftProjectFR" Label="Microsoft Project Online Desktop Client 32Bit - 16.0.11929.20606 - French" Name="Microsoft Project Online Desktop Client 32Bit - 16.0.11929.20606 - French"/>
+	<Application Id="MicrosoftVisioFR" Label="Microsoft Visio Pro 32Bit - 16.0.11929.20606 - French" Name="Microsoft Visio Pro 32Bit - 16.0.11929.20606 - French"/>
+	<!-- Blizzard Specific Software	-->
+	<Application Id="NETFramework3.5" Label="NETFramework3.5" Name="Microsoft .NET Framework 3.5"/>
+	<Application Id="Adobe Reader DC" Label="Adobe Reader DC" Name="Global - Adobe Systems Incorporated Adobe Reader DC v.20.013.20064"/>
+	<Application Id="Google Chrome" Label="Google Chrome" Name="Global - Google Chrome v.94.0.4606.81"/>
+	<Application Id="Five9 Softphone Certificate" Label="Five9 Softphone Certificate" Name="Global - MSH Five9 Softphone Certificate v.1.0"/>
+	<Application Id="FIVE9 Desktop Resources" Label="FIVE9 Desktop Resources" Name="Global - MSH VERINT FIVE9 Desktop Resources v.15.2.3.52"/>
+	<Application Id="FIVE9 Playback" Label="FIVE9 Playback" Name="Global - MSH VERINT FIVE9 Playback v.15.2.0.300"/>
+	<Application Id="FIVE9 Screen Capture Module" Label="FIVE9 Screen Capture Module" Name="Global - MSH VERINT FIVE9 Screen Capture Module v.15.2.3.335"/>
+	<Application Id="TextExpander" Label="TextExpander" Name="Global - Smile, Inc. TextExpander v.211.31.0.0.1"/>
+	<Application Id="VB C++" Label="VB C++" Name="Blizzard | VC++"/>
+	<Application Id="ODBC Driver" Label="ODBC Driver" Name="Global - Microsoft Corporation ODBC Driver 17 for SQL Server v.17.4.2.1 (x64)"/>
+	<Application Id="ReportViewer" Label="ReportViewer" Name="Blizzard | ReportViewer"/>
+	<Application Id="Sharepoint Designer" Label="Sharepoint Designer" Name="Global - Microsoft Office Sharepoint Designer 2007 v.12.0.6215.1000"/>
+	<Application Id="Claims Engine 2000" Label="Claims Engine 2000" Name="Global - DayTech Corporation  CE2000 v.9.4.1.0"/>
+	<Application Id="Rx30" Label="Rx30" Name="Global - Transaction Data Rx30 Connect v,1.02"/>
+	<Application Id="Citrix Gateway" Label="Citrix Gateway" Name="Citrix Gateway Endpoint Analysis"/>
+	<Application Id="RightFax" Label="RightFax" Name="RightFax 10.6 FP3"/>
+
+  </Software>
+ 
+  <Actions>
+  <!-- Welcome Page -->
+    <Action Type="Info" Name="myInfo" Title="Welcome" Image="mck.png" Timeout="30" TimeoutAction="Continue">
+      <![CDATA[
+	  <br>This GUI will help guide you through the build process.
+	  <br>Please contact Endpoint Engineering for support https://mckesson.atlassian.net/servicedesk/customer/portal/1044/group/1484/create/2317 ]]>
+    </Action>
+	<!--......................................................................................................................................................................-->
+	 <!-- PreFlight Check -->
+    <ActionGroup Name="Preflight">
+	    <Action Type="DefaultValues" ValueTypes="Asset,CPU,VM"/>
+        <Action Type="Preflight" Title="Preflight checks" ShowOnFailureOnly="False" ShowBack="True" ShowRefresh="True" Timeout="30" TimeoutAction="Continue">
+          <Check Text="Not on battery" CheckCondition='"%XOnBattery%" = "False"' />
+          <Check Text="Minimum memory > 4GB" CheckCondition='%XHWMemory% >= 4000' />
+          <Check Text="CPU Supports Windows 10" CheckCondition='%XCPUPAE% AND %XCPUNX% AND %XCPUSSE2% = True' />
+        </Action>
+		
+		
+		 <!--Do you want to receive an email after TS completion  -->
+
+        <Action Type="Input" Name="EmailChoice" Title="Post Build Email Notification">
+          <ChoiceInput Variable="varEmailChoice" Question="Do you want to receive an email after completion?  " Default="No" >
+			<Choice Option="Yes" Value="True"/>
+			<Choice Option="No" Value="False"/>	
+          </ChoiceInput>
+        </Action>
+		
+		<Action Type="Input" Name="EmailInput" Title="Email Notification" ShowBack="True" Condition='"%varEmailChoice%" = "True"'>
+			<InputText Prompt="System Name" Hint="Please Enter Your Email Address for Post Build Notification. " RegEx="^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" Variable="TechEmail" Question="Email Address" />
+			<InputInfo Color="#992233">Dependent on this systems network access to the</InputInfo>
+			<InputInfo Color="#992233">SMTP server. Delivery is not guaranteed.</InputInfo>
+		</Action>
+
+
+
+		 <!-- Choose Region -->
+        <Action Type="Input" Name="PreChoice" Title="Available configurations">
+          <ChoiceInput Variable="PreConfig" Question="Please choose build configuration " Default="None" >
+            <Choice Option="USON" Value="USON"/>
+			<Choice Option="NAMCK" Value="NAMCK"/>
+			<Choice Option="CANADA" Value="CANADA"/>
+			<Choice Option="MSHPS" Value="MSHPS"/>
+			<Choice Option="BLIZZARD" Value="BLIZZARD"/>
+          </ChoiceInput>
+        </Action>
+     </ActionGroup>
+	 <!--......................................................................................................................................................................-->
+	 <!--......................................................................................................................................................................-->
+	   <!-- If Location is USON -->
+	<ActionGroup Name ="USON" Condition='"%PreConfig%" = "USON"'>
+						
+						
+								 <!-- Choose Build USON Config -->
+					<Action Type="Input" Name="BuildConfig" Title="Available configurations">
+						<ChoiceInput Variable="BuildConfig" Question="Please choose build configuration " Default="None" >
+							<Choice Option="Standard USON" Value="Standard_USON"/>
+							<Choice Option="Exam Room USON" Value="ExamRoom"/>
+                            <Choice Option="TXO Region A" Value="TXORegionA"/>
+						</ChoiceInput>
+					</Action>
+	
+	
+								<!-- Standard USON Config -->
+						<ActionGroup Name ="USON Standard Config" Condition='"%BuildConfig%" = "Standard_USON"'>
+						<!-- Set Chassis Type -->
+						<Action Type="TSVar" Variable="OSDComputerType">Trim("%XHWChassisType%s")</Action>
+	
+	
+						<!-- Choose USON Location -->
+						<Action Type="Input" Name="ChooseUSONLocation" Title="Available Locations">
+							<ChoiceInput Variable="McKesson_TSOU" Question="Please choose location " Default="None" >
+										<!-- Locations -->
+										
+								<Choice Option="TEST USON OU" Value="LDAP://OU=TEST,OU=Desktops,OU=Computers,OU=North,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />		
+								
+								<Choice Option="AL_SouthernCancerCenter" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=AL_SouthernCancerCenter,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="AZ_Arizona Oncology Associates" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=AZ_Arizona Oncology Associates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="CO_Rocky Mountain Cancer Centers" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=CO_Rocky Mountain Cancer Centers,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="DE_Medical Oncology Hematology Consultants" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=DE_Medical Oncology Hematology Consultants,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_Advanced Medical Specialties" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_Advanced Medical Specialties,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_Cancer Care Centers of Brevard" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_Cancer Care Centers of Brevard,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_Florida Cancer Affiliates" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_Florida Cancer Affiliates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_South Florida Oncology and Hematology Consultants" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_South Florida Oncology and Hematology Consultants,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_Urology Specialist of West Florida" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_Urology Specialist of West Florida,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_Woodlands Medical Specialists" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_WoodlandsMedicalSpecialists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="IL_Affiliated Oncologists" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OU=IL_Affiliated Oncologists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="IL_IllinoisCancerSpecialists" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=IL_IllinoisCancerSpecialists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="IN_Northwest Oncology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=IN_Northwest Oncology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="MD_Maryland Oncology Hematology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=MD_Maryland Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="MN_Minnesota Oncology Hematology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=MN_Minnesota Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="MO_Missouri Cancer Associates" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=MO_Missouri Cancer Associates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="NC_Cancer Centers of North Carolina" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=NC_Cancer Centers of North Carolina,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="NV_Comprehensive Cancer Centers of Nevada" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=NV_Comprehensive Cancer Centers of Nevada,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="NY_New York Oncology Hematology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=NY_New York Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="OH_Hope Center for Cancer Care" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OH_Hope Center for Cancer Care,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="OH_Oncology Hematology Care" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OH_Oncology Hematology Care,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="OR_Northwest Cancer Specialists (Portland)" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OR_Northwest Cancer Specialists (Portland),OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="OR_Oncology Associates of Oregon (Eugene)" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OR_Oncology Associates of Oregon (Eugene),OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="PA_Consultants of Medical Oncology and Hemtology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=PA_Consultants of Medical Oncology and Hemtology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Central" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Central,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO East" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=East,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO FtWorthMidCity" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FtWorthMidCity,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Gulf Coast" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Gulf Coast,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO North" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=North,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Proton" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Proton,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Sammons Cancer Center" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Sammons Cancer Center,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Rio Grand Valley" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=South - Rio Grande Valley,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO San Antonio" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=San Antonio,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO West" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=West,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="US_Mountain West RBO" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=US_Mountain West RBO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VA_Blue Ridge Cancer Centers" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VA_Blue Ridge Cancer Centers,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VA_Shenandoah Oncology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VA_Shenandoah Oncology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VA_Virginia Cancer Specialists" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VA_Virginia Cancer Specialists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VA_Virginia Oncology Associates" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VA_Virginia Oncology Associates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_CBO" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_CBO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Georgia" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Georgia,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Kentuckiana" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Kentuckiana,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Midwest" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Midwest,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Northeast" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Northeast,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Rhode Island" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Rhode Island,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Southeast" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Southeast,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_West" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_West,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="US_Mountain West RBO" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=US_Mountain West RBO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								
+						</ChoiceInput>
+						</Action>
+				
+
+						<!-- Add Computer Name -->
+						<Action Type="Input" Title="Enter Computer Name" ShowBack="True">
+							<InputInfo>"- alphanumeric and hyphens only" </InputInfo>
+							<TextInput Required="True" Question="- 5 to 14 characters" ForceCase="Upper" Variable="OSDComputerName" RegEx="([[:alnum:]]|\-){5,14}" Hint="alphanumeric and hyphens only, 5-14 chars long"></TextInput>
+						</Action>
+						<Action Type="Info" Title="Confirm Computer Name" ShowBack="True">
+								<![CDATA[
+								<br>You have entered
+								<br><b>%OSDComputerName%</b>
+								<br>Is this correct?]]>
+						</Action>
+		
+							
+						<!-- Set Time Zone -->
+						<Action Type="Input" Name="Time Zones" Title="Time Zones" ShowBack="True">
+							<ChoiceInput Variable="OSDTimezone" Question="Please Choose the time zones" Required="True">
+								<Choice Option="Central" Value="Central Standard Time" />
+								<Choice Option="Eastern" Value="Eastern Standard Time" />
+								<Choice Option="Mountain" Value="Mountain Standard Time" />
+								<Choice Option="Pacific" Value="Pacific Standard Time" />
+								<Choice Option="Arizona" Value="U.S. Mountain Standard Time" />
+							</ChoiceInput>
+						</Action> 
+	
+	
+		
+			<Action Type="TSVar" Name="McKesson_Build">"USON"</Action>
+			<Action Type="TSVar" Name="McKesson_TSDomain" >"USON"</Action>
+			<Action Type="TSVar" Name="McKesson_Location">"USON"</Action>
+			
+			
+			<Action Type="AppTree" Title="Select Software" ShowBack="True" Size="Tall">
+				<SoftwareSets>
+					<Set Name="USON Choice">
+						<SoftwareGroup Id="1" Label="Default Applications" Required="True">
+							<SoftwareRef Id="Office365" Hidden="False"/>
+							<SoftwareRef Id="SentinelOne" Hidden="False"/>
+							<SoftwareRef Id="CitrixWorkspace" Hidden="False"/>
+							<SoftwareRef Id="CyberArk" Hidden="False"/>
+							<SoftwareRef Id="Bomgar" Hidden="False"/>
+							<SoftwareRef Id="Z-Zip" Hidden="False"/>
+							<SoftwareRef Id="Chrome 32bit" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="Humanscale" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="ZScaler" Hidden="False"/>
+						</SoftwareGroup>
+					</Set>
+				</SoftwareSets>
+			</Action> 
+			
+			<!-- Final Summary -->
+			<Action Type="Info" Name="FinalInfo" Title="Summary" ShowBack="True"  Timeout="30" TimeoutAction="Continue">
+			<![CDATA[<b>System name:</b> %OSDComputerName%
+			<br><b>OU:</b> %McKesson_TSOU%
+			]]>
+			</Action>
+				 </ActionGroup> 
+				 
+				 
+				 <!-- ExamRoom USON Config -->
+	<ActionGroup Name ="USON Standard Config" Condition='"%BuildConfig%" = "ExamRoom"'>
+						<!-- Set Chassis Type -->
+						<Action Type="TSVar" Variable="OSDComputerType">Trim("%XHWChassisType%s")</Action>
+	
+	
+						<!-- Choose USON Location -->
+						<Action Type="Input" Name="ChooseUSONLocation" Title="Available Locations">
+							<ChoiceInput Variable="McKesson_TSOU" Question="Please choose location " Default="None" >
+										<!-- Locations -->
+										
+								<Choice Option="TEST USON OU" Value="LDAP://OU=TEST,OU=Desktops,OU=Computers,OU=North,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />		
+								
+								<Choice Option="AL_SouthernCancerCenter" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=AL_SouthernCancerCenter,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="AZ_Arizona Oncology Associates" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=AZ_Arizona Oncology Associates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="CO_Rocky Mountain Cancer Centers" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=CO_Rocky Mountain Cancer Centers,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="DE_Medical Oncology Hematology Consultants" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=DE_Medical Oncology Hematology Consultants,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_Advanced Medical Specialties" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_Advanced Medical Specialties,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_Cancer Care Centers of Brevard" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_Cancer Care Centers of Brevard,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_Florida Cancer Affiliates" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_Florida Cancer Affiliates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_South Florida Oncology and Hematology Consultants" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_South Florida Oncology and Hematology Consultants,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_Urology Specialist of West Florida" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_Urology Specialist of West Florida,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="FL_Woodlands Medical Specialists" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_WoodlandsMedicalSpecialists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="IL_Affiliated Oncologists" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OU=IL_Affiliated Oncologists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="IL_IllinoisCancerSpecialists" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=IL_IllinoisCancerSpecialists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="IN_Northwest Oncology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=IN_Northwest Oncology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="MD_Maryland Oncology Hematology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=MD_Maryland Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="MN_Minnesota Oncology Hematology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=MN_Minnesota Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="MO_Missouri Cancer Associates" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=MO_Missouri Cancer Associates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="NC_Cancer Centers of North Carolina" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=NC_Cancer Centers of North Carolina,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="NV_Comprehensive Cancer Centers of Nevada" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=NV_Comprehensive Cancer Centers of Nevada,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="NY_New York Oncology Hematology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=NY_New York Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="OH_Hope Center for Cancer Care" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OH_Hope Center for Cancer Care,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="OH_Oncology Hematology Care" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OH_Oncology Hematology Care,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="OR_Northwest Cancer Specialists (Portland)" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OR_Northwest Cancer Specialists (Portland),OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="OR_Oncology Associates of Oregon (Eugene)" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OR_Oncology Associates of Oregon (Eugene),OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="PA_Consultants of Medical Oncology and Hemtology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=PA_Consultants of Medical Oncology and Hemtology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Central" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Central,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO East" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=East,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO FtWorthMidCity" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FtWorthMidCity,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Gulf Coast" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Gulf Coast,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO North" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=North,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Proton" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Proton,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Sammons Cancer Center" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Sammons Cancer Center,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Rio Grand Valley" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=South - Rio Grande Valley,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO San Antonio" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=San Antonio,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO West" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=West,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="US_Mountain West RBO" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=US_Mountain West RBO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VA_Blue Ridge Cancer Centers" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VA_Blue Ridge Cancer Centers,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VA_Shenandoah Oncology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VA_Shenandoah Oncology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VA_Virginia Cancer Specialists" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VA_Virginia Cancer Specialists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VA_Virginia Oncology Associates" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VA_Virginia Oncology Associates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_CBO" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_CBO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Georgia" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Georgia,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Kentuckiana" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Kentuckiana,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Midwest" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Midwest,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Northeast" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Northeast,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Rhode Island" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Rhode Island,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_Southeast" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_Southeast,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="VO_West" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_West,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="US_Mountain West RBO" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=US_Mountain West RBO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								
+						</ChoiceInput>
+						</Action>
+				
+
+						<!-- Add Computer Name -->
+						<Action Type="Input" Title="Enter Computer Name" ShowBack="True">
+							<InputInfo>"- alphanumeric and hyphens only" </InputInfo>
+							<TextInput Required="True" Question="- 5 to 14 characters" ForceCase="Upper" Variable="OSDComputerName" RegEx="([[:alnum:]]|\-){5,14}" Hint="alphanumeric and hyphens only, 5-14 chars long"></TextInput>
+						</Action>
+						<Action Type="Info" Title="Confirm Computer Name" ShowBack="True">
+								<![CDATA[
+								<br>You have entered
+								<br><b>%OSDComputerName%</b>
+								<br>Is this correct?]]>
+						</Action>
+		
+							
+						<!-- Set Time Zone -->
+						<Action Type="Input" Name="Time Zones" Title="Time Zones" ShowBack="True">
+							<ChoiceInput Variable="OSDTimezone" Question="Please Choose the time zones" Required="True">
+								<Choice Option="Central" Value="Central Standard Time" />
+								<Choice Option="Eastern" Value="Eastern Standard Time" />
+								<Choice Option="Mountain" Value="Mountain Standard Time" />
+								<Choice Option="Pacific" Value="Pacific Standard Time" />
+								<Choice Option="Arizona" Value="U.S. Mountain Standard Time" />
+							</ChoiceInput>
+						</Action> 
+	
+	
+		
+			<Action Type="TSVar" Name="McKesson_Build">"USON"</Action>
+			<Action Type="TSVar" Name="McKesson_TSDomain" >"USON"</Action>
+			<Action Type="TSVar" Name="McKesson_Location">"USON"</Action>
+			
+			
+			<Action Type="AppTree" Title="Select Software" ShowBack="True" Size="Tall">
+				<SoftwareSets>
+					<Set Name="USON Choice">
+						<SoftwareGroup Id="1" Label="Default Applications" Required="True">
+							<SoftwareRef Id="MS Office 2019 MSI (KMS Activation)" Hidden="False"/>
+							<SoftwareRef Id="SentinelOne" Hidden="False"/>
+							<SoftwareRef Id="CitrixWorkspace" Hidden="False"/>
+							<SoftwareRef Id="CyberArk" Hidden="False"/>
+							<SoftwareRef Id="Bomgar" Hidden="False"/>
+							<SoftwareRef Id="Z-Zip" Hidden="False"/>
+							<SoftwareRef Id="Chrome 32bit" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="Humanscale" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="ZScaler" Hidden="False"/>
+						</SoftwareGroup>
+					</Set>
+				</SoftwareSets>
+			</Action> 
+			
+			
+			<!-- Final Summary -->
+			<Action Type="Info" Name="FinalInfo" Title="Summary" ShowBack="True"  Timeout="30" TimeoutAction="Continue">
+			<![CDATA[<b>System name:</b> %OSDComputerName%
+			<br><b>OU:</b> %McKesson_TSOU%
+			]]>
+			</Action>
+				 </ActionGroup> 				 
+				 
+				 
+				 
+				 <!-- Start TXO Region A USON Config -->
+	<ActionGroup Name ="USON Standard Config" Condition='"%BuildConfig%" = "TXORegionA"'>
+						<!-- Set Chassis Type -->
+						<Action Type="TSVar" Variable="OSDComputerType">Trim("%XHWChassisType%s")</Action>
+	
+	
+						<!-- Choose USON Location -->
+						<Action Type="Input" Name="ChooseUSONLocation" Title="Available Locations">
+							<ChoiceInput Variable="McKesson_TSOU" Question="Please choose location " Default="None" >
+										<!-- Locations -->
+																		
+								<Choice Option="TX_TXO Central" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Central,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO East" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=East,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO FtWorthMidCity" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FtWorthMidCity,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Gulf Coast" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Gulf Coast,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO North" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=North,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Proton" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Proton,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Sammons Cancer Center" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Sammons Cancer Center,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO Rio Grand Valley" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=South - Rio Grande Valley,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO San Antonio" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=San Antonio,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TX_TXO West" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=West,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								
+						</ChoiceInput>
+						</Action>
+				
+
+						<!-- Add Computer Name -->
+						<Action Type="Input" Title="Enter Computer Name" ShowBack="True">
+							<InputInfo>"- alphanumeric and hyphens only" </InputInfo>
+							<TextInput Required="True" Question="- 5 to 14 characters" ForceCase="Upper" Variable="OSDComputerName" RegEx="([[:alnum:]]|\-){5,14}" Hint="alphanumeric and hyphens only, 5-14 chars long"></TextInput>
+						</Action>
+						<Action Type="Info" Title="Confirm Computer Name" ShowBack="True">
+								<![CDATA[
+								<br>You have entered
+								<br><b>%OSDComputerName%</b>
+								<br>Is this correct?]]>
+						</Action>
+		
+							
+						<!-- Set Time Zone -->
+						<Action Type="Input" Name="Time Zones" Title="Time Zones" ShowBack="True">
+							<ChoiceInput Variable="OSDTimezone" Question="Please Choose the time zones" Required="True">
+								<Choice Option="Central" Value="Central Standard Time" />
+								<Choice Option="Eastern" Value="Eastern Standard Time" />
+								<Choice Option="Mountain" Value="Mountain Standard Time" />
+								<Choice Option="Pacific" Value="Pacific Standard Time" />
+								<Choice Option="Arizona" Value="U.S. Mountain Standard Time" />
+							</ChoiceInput>
+						</Action> 
+	
+	
+		
+			<Action Type="TSVar" Name="McKesson_Build">"USON"</Action>
+			<Action Type="TSVar" Name="McKesson_TSDomain" >"USON"</Action>
+			<Action Type="TSVar" Name="McKesson_Location">"USON"</Action>
+			
+			
+			<Action Type="AppTree" Title="Select Software" ShowBack="True" Size="Tall">
+				<SoftwareSets>
+					<Set Name="USON Choice">
+						<SoftwareGroup Id="1" Label="Default TXO RegionA Required Applications" Required="True">
+							<SoftwareRef Id="MS Office 2019 MSI (KMS Activation)" Hidden="False"/>
+							<SoftwareRef Id="SentinelOne" Hidden="False"/>
+							<SoftwareRef Id="CitrixWorkspace" Hidden="False"/>
+							<SoftwareRef Id="CyberArk" Hidden="False"/>
+							<SoftwareRef Id="Bomgar" Hidden="False"/>
+							<SoftwareRef Id="Z-Zip" Hidden="False"/>
+							<SoftwareRef Id="Chrome 32bit" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="Humanscale" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="ZScaler" Hidden="False"/>
+						</SoftwareGroup>
+
+						<SoftwareGroup Id="2" Label="TXO Region A Optional Applications" Required="False">
+							<SoftwareRef Id="7Zip" />
+							<SoftwareRef Id="AcrobatDC2019" />
+							<SoftwareRef Id="Antidote9" />
+							<SoftwareRef Id="Audacity" />
+							<SoftwareRef Id="BriaStretto" />
+							<SoftwareRef Id="CiscoIPCommunicator" />
+							<SoftwareRef Id="HorizonClient" />
+							<SoftwareRef Id="IBMOnDemand" />
+							<SoftwareRef Id="SAPGUI" />
+						</SoftwareGroup>
+					</Set>
+				</SoftwareSets>
+			</Action> 
+			
+			
+			<!-- Final Summary -->
+			<Action Type="Info" Name="FinalInfo" Title="Summary" ShowBack="True"  Timeout="30" TimeoutAction="Continue">
+			<![CDATA[<b>System name:</b> %OSDComputerName%
+			<br><b>OU:</b> %McKesson_TSOU%
+			]]>
+			</Action>
+				 </ActionGroup> 	<!-- End TXO Region A USON Config -->			 
+				 
+				 
+				 
+				 
+				 
+	 </ActionGroup> 
+	
+	 <!--......................................................................................................................................................................-->
+	 <!--......................................................................................................................................................................-->
+
+	<!-- If Location is NAMCK -->
+	<ActionGroup Name ="NAMCK" Condition='"%PreConfig%" = "NAMCK"'>
+		<Action Type="TSVar" Name="McKesson_Build">"NAMCK"</Action>
+		<Action Type="TSVar" Name="McKesson_TSDomain">"NAMCK"</Action>
+		<Action Type="TSVar" Name="McKesson_TSOU">"LDAP://OU=Windows10,OU=FTS,OU=Delegated,DC=na,DC=corp,DC=mckesson,DC=com"</Action>
+		<Action Type="TSVar" Name="McKesson_Location">"NAMCK"</Action>
+		<Action Type="TSVar" Name="Physical" Condition='"%XHWVirtualMachineType%" = ""'>"True"</Action>
+		<Action Type="TSVar" Name="SerialNumber">%XHWSerialNumber%</Action>
+		<Action Type="TSVar" Variable="OSDComputerName">Trim("A%SerialNumber%")</Action>
+		
+		<Action Type="AppTree" Title="Software" ShowBack="True" Size="Tall">
+				<SoftwareSets>
+					<Set Name="NAMCK">
+						<SoftwareGroup Id="1" Label="Applications Installed by Default" Required="True">
+							<SoftwareRef Id="Office365" Hidden="False"/>
+							<SoftwareRef Id="SentinelOne" Hidden="False"/>
+							<SoftwareRef Id="CitrixWorkspace" Hidden="False"/>
+							<SoftwareRef Id="CyberArk" Hidden="False"/>
+							<SoftwareRef Id="GlobalProtect" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="Humanscale" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="ZScaler" Hidden="False"/>
+						</SoftwareGroup>
+					</Set>
+				</SoftwareSets>	
+		</Action>
+		
+		<!-- Set Time Zone -->
+						<Action Type="Input" Name="Time Zones" Title="Time Zones" ShowBack="True">
+							<ChoiceInput Variable="OSDTimezone" Question="Please Choose the time zones" Required="True">
+								<Choice Option="Central" Value="Central Standard Time" />
+								<Choice Option="Eastern" Value="Eastern Standard Time" />
+								<Choice Option="Mountain" Value="Mountain Standard Time" />
+								<Choice Option="Pacific" Value="Pacific Standard Time" />
+								<Choice Option="GMT" Value="GMT Standard Time" />
+								<Choice Option="Arizona" Value="U.S. Mountain Standard Time" />
+								<Choice Option="China" Value="China Standard Time" />
+							</ChoiceInput>
+						</Action> 
+
+
+
+		<!-- Set Keyboard and Language for UK and Ireland -->		
+				<ActionGroup Name ="Set OSD Windows Language Settings" Condition='"%OSDTimezone%" = "GMT Standard Time"'>
+				
+		      	<Action Type="TSVar" Name="OSDWindowsSettingsSystemLocale">"en-GB"</Action>
+      			<Action Type="TSVar" Name="OSDWindowsSettingsUserLocale">"en-GB"</Action>
+      			<Action Type="TSVar" Name="OSDWindowsSettingsUILanguage">"en-GB"</Action>
+      			<Action Type="TSVar" Name="OSDWindowsSettingsInputLocale">"en-GB"</Action>
+				
+				</ActionGroup>
+				
+				<!-- Final Summary -->
+			<Action Type="Info" Name="FinalInfo" Title="Summary" ShowBack="True"  Timeout="30" TimeoutAction="Continue">
+			<![CDATA[<b>System name:</b> %OSDComputerName%
+			<br><b>OU:</b> %McKesson_TSOU%
+			]]>
+			</Action>
+				 </ActionGroup> 	
+						
+
+	
+		
+		
+	<!--......................................................................................................................................................................-->
+	<!--......................................................................................................................................................................-->	
+
+		<!-- If Location is BLIZZARD -->
+	<ActionGroup Name ="BLIZZARD" Condition='"%PreConfig%" = "BLIZZARD"'>
+		<Action Type="TSVar" Name="McKesson_Build">"BLIZZARD"</Action>
+		<Action Type="TSVar" Name="McKesson_TSDomain">"NAMCK"</Action>
+		<Action Type="TSVar" Name="McKesson_TSOU">"LDAP://OU=Block Policy,OU=Computers,OU=AZ_Scottsdale,OU=MSD,OU=Delegated,DC=na,DC=corp,DC=mckesson,DC=com"</Action>
+		<Action Type="TSVar" Name="McKesson_Location">"BLIZZARD"</Action>
+		<Action Type="TSVar" Name="Physical" Condition='"%XHWVirtualMachineType%" = ""'>"True"</Action>
+		<Action Type="TSVar" Name="SerialNumber">%XHWSerialNumber%</Action>
+		<Action Type="TSVar" Variable="OSDComputerName">Trim("A%SerialNumber%")</Action>
+		
+		<Action Type="AppTree" Title="Software" ShowBack="True" Size="Tall">
+				<SoftwareSets>
+					<Set Name="Blizzard">
+						<SoftwareGroup Id="1" Label="Applications Installed by Default" Required="True">
+							<SoftwareRef Id="Office365" Hidden="False"/>
+							<SoftwareRef Id="SentinelOne" Hidden="False"/>
+							<SoftwareRef Id="CitrixWorkspace" Hidden="False"/>
+							<SoftwareRef Id="CyberArk" Hidden="False"/>
+							<SoftwareRef Id="GlobalProtect" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="Humanscale" Hidden="False"/>
+							<SoftwareRef Id="ZScaler" Hidden="False"/>
+							<SoftwareRef Id="NETFramework3.5" Hidden="False"/>
+							<SoftwareRef Id="Adobe Reader DC" Hidden="False"/>
+							<SoftwareRef Id="Google Chrome" Hidden="False"/>
+							<SoftwareRef Id="Five9 Softphone Certificate" Hidden="False"/>
+							<SoftwareRef Id="FIVE9 Desktop Resources" Hidden="False"/>
+							<SoftwareRef Id="FIVE9 Playback" Hidden="False"/>
+							<SoftwareRef Id="FIVE9 Screen Capture Module" Hidden="False"/>
+							<SoftwareRef Id="TextExpander" Hidden="False"/>
+							<SoftwareRef Id="VB C++" Hidden="False"/>
+							<SoftwareRef Id="ODBC Driver" Hidden="False"/>
+							<SoftwareRef Id="ReportViewer" Hidden="False"/>
+							<SoftwareRef Id="Sharepoint Designer" Hidden="False"/>
+							<SoftwareRef Id="Claims Engine 2000" Hidden="False"/>
+							<SoftwareRef Id="Rx30" Hidden="False"/>
+							<SoftwareRef Id="Citrix Gateway" Hidden="False"/>
+							<SoftwareRef Id="RightFax" Hidden="False"/>
+						</SoftwareGroup>
+					</Set>
+				</SoftwareSets>	
+		</Action>
+		<!-- Set Time Zone -->
+						<Action Type="Input" Name="Time Zones" Title="Time Zones" ShowBack="True">
+							<ChoiceInput Variable="OSDTimezone" Question="Please Choose the time zones" Required="True">
+								<Choice Option="Central" Value="Central Standard Time" />
+								<Choice Option="Eastern" Value="Eastern Standard Time" />
+								<Choice Option="Mountain" Value="Mountain Standard Time" />
+								<Choice Option="Pacific" Value="Pacific Standard Time" />
+								<Choice Option="GMT" Value="GMT Standard Time" />
+								<Choice Option="Arizona" Value="U.S. Mountain Standard Time" />
+								<Choice Option="China" Value="China Standard Time" />
+							</ChoiceInput>
+						</Action> 
+						
+						<!-- Final Summary -->
+			<Action Type="Info" Name="FinalInfo" Title="Summary" ShowBack="True"  Timeout="30" TimeoutAction="Continue">
+			<![CDATA[<b>System name:</b> %OSDComputerName%
+			<br><b>OU:</b> %McKesson_TSOU%
+			]]>
+			</Action>
+				 </ActionGroup> 	
+						
+
+	<!--......................................................................................................................................................................-->
+	<!--......................................................................................................................................................................-->	
+	<!-- If Location is CANADA -->
+	
+	<ActionGroup Name ="CANADA" Condition='"%PreConfig%" = "CANADA"'>
+	
+		<Action Type="TSVar" Name="McKesson_Build">"CANADA"</Action>
+		<Action Type="TSVar" Name="McKesson_TSDomain">"Canada"</Action>
+		<Action Type="TSVar" Name="McKesson_TSOU">"LDAP://OU=SCCM Imaged,OU=1. Computer Systems,DC=ca,DC=hq,DC=medisna,DC=com"</Action>
+		<Action Type="TSVar" Name="Physical" Condition='"%XHWVirtualMachineType%" = ""'>"True"</Action>
+		<Action Type="TSVar" Name="SerialNumber">%XHWSerialNumber%</Action>
+		<Action Type="TSVar" Variable="OSDComputerName">Trim("A%SerialNumber%")</Action>
+		
+		<!-- Choose Language  -->
+		<Action Type="Input" Name="Language" Title="Choose Language" ShowBack="True">
+							<ChoiceInput Variable="McKesson_Location" Question="Please Choose Language" Required="True">
+								<Choice Option="English" Value="Canada-EN" />
+								<Choice Option="French-CA" Value="Canada-fr-CA" />
+							</ChoiceInput>
+		</Action>
+
+	
+		<!-- Install Software  -->
+		
+		<Action Type="AppTree" Title="Select Software" ShowBack="True" Size="ExtraTall">
+				<SoftwareSets>
+					<Set Name="Canada Choice">
+						<SoftwareGroup Id="1" Label="Default Applications" Required="True">
+							<SoftwareRef Id="Office365" Hidden="False"/>
+							<SoftwareRef Id="SentinelOne" Hidden="False"/>
+							<SoftwareRef Id="GlobalProtect" Hidden="False"/>
+							<SoftwareRef Id="CitrixWorkspace" Hidden="False"/>
+							<SoftwareRef Id="Pulse Secure 5.2" Hidden="False"/>
+							<SoftwareRef Id="PulseSecureInstallerService" Hidden="False"/>
+							<SoftwareRef Id="RSASecurID" Hidden="False"/>
+							<SoftwareRef Id="LAPS" Hidden="False"/>	
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="Humanscale" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="ZScaler" Hidden="False"/>
+						</SoftwareGroup>
+						
+						<SoftwareGroup Id="2" Label="Multi Language" Required="False">
+							<SoftwareRef Id="7Zip" />
+							<SoftwareRef Id="AcrobatDC2019" />
+							<SoftwareRef Id="Antidote9" />
+							<SoftwareRef Id="Audacity" />
+							<SoftwareRef Id="BriaStretto" />
+							<SoftwareRef Id="CiscoIPCommunicator" />
+							<SoftwareRef Id="HorizonClient" />
+							<SoftwareRef Id="IBMOnDemand" />
+							<SoftwareRef Id="SAPGUI" />
+						</SoftwareGroup>
+						
+						<SoftwareGroup Id="3" Label="English" Required="False">
+							<SoftwareRef Id="FacetPhone" />
+							<SoftwareRef Id="IBMClientAccessEN" />
+							<SoftwareRef Id="MicrosoftProjectEN" />
+							<SoftwareRef Id="TechSmithSnagit" />
+							<SoftwareRef Id="MicrosoftVisioEN" />
+						</SoftwareGroup>
+						
+						<SoftwareGroup Id="4" Label="French" Required="False">
+							<SoftwareRef Id="IBMClientAccessFR" />
+							<SoftwareRef Id="MicrosoftProjectFR" />
+							<SoftwareRef Id="MicrosoftVisioFR" />
+						</SoftwareGroup>
+					</Set>
+				</SoftwareSets>
+			</Action>
+			
+		<!-- Set Time Zone -->
+		<Action Type="Input" Name="Time Zones" Title="Time Zones" ShowBack="True">
+			<ChoiceInput Variable="OSDTimezone" Question="Please Choose the time zones" Required="True">
+				<Choice Option="Central" Value="Central Standard Time" />
+				<Choice Option="Eastern" Value="Eastern Standard Time" />
+				<Choice Option="Mountain" Value="Mountain Standard Time" />
+				<Choice Option="Pacific" Value="Pacific Standard Time" />
+				<Choice Option="Atlantic" Value="Atlantic Standard Time" />
+			</ChoiceInput>
+		</Action>
+		
+		<!-- Final Summary -->
+		<Action Type="Info" Name="FinalInfo" Title="Summary" ShowBack="True"  Timeout="30" TimeoutAction="Continue">
+		<![CDATA[<b>System name:</b> %OSDComputerName%
+		<br><b>OU:</b> %McKesson_TSOU%
+		]]>
+		</Action>
+	</ActionGroup>
+	
+	
+	<!--......................................................................................................................................................................-->
+	<!--......................................................................................................................................................................-->
+	   <!-- If Location is MSHPS -->
+	<ActionGroup Name ="MSHPS" Condition='"%PreConfig%" = "MSHPS"'>
+		<Action Type="TSVar" Name="McKesson_Build">"MSHPS"</Action>
+
+		<Action Type="AppTree" Title="Select Software" ShowBack="True" Size="Tall">
+				<SoftwareSets>
+					<Set Name="MSHPS Choice">
+						<SoftwareGroup Id="1" Label="Default Applications" Required="True">
+							<SoftwareRef Id="Office365" Hidden="False"/>
+							<SoftwareRef Id="SentinelOne" Hidden="False"/>
+							<SoftwareRef Id="CitrixWorkspace" Hidden="False"/>
+							<SoftwareRef Id="CyberArk" Hidden="False"/>
+							<SoftwareRef Id="Pulse Secure 9.1" Hidden="False"/>
+							<SoftwareRef Id="RSASecurID" Hidden="False"/>
+							<SoftwareRef Id="Adobe Reader DC" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="Humanscale" Hidden="False"/>
+							<SoftwareRef Condition='"%XHWChassisType%" = "Laptop" Or "%XHWChassisType%" = "Tablet"' Id="ZScaler" Hidden="False"/>
+						</SoftwareGroup>
+					</Set>
+				</SoftwareSets>
+		</Action>
+
+		
+		<!-- Set Chassis Type -->
+		<Action Type="TSVar" Variable="OSDComputerType">Trim("%XHWChassisType%s")</Action>
+
+		<Action Type="TSVar" Name="McKesson_TSDomain">"MSHPS"</Action>
+		<Action Type="TSVar" Name="McKesson_TSOU">"LDAP://OU=Desktops,OU=Computers,OU=US_IntraFUSION,OU=Clinical,DC=MSHPS,DC=usoncology,DC=int"</Action>
+		<Action Type="TSVar" Name="McKesson_Location">"MSHPS"</Action>
+		<Action Type="TSVar" Name="Physical" Condition='"%XHWVirtualMachineType%" = ""'>"True"</Action>
+		<Action Type="TSVar" Name="SerialNumber">%XHWSerialNumber%</Action>
+		<Action Type="TSVar" Variable="OSDComputerName">Trim("A%SerialNumber%")</Action>
+		
+		
+		
+		<!-- Set Time Zone -->
+		<Action Type="Input" Name="Time Zones" Title="Time Zones" ShowBack="True">
+			<ChoiceInput Variable="OSDTimezone" Question="Please Choose the time zones" Required="True">
+				<Choice Option="Central" Value="Central Standard Time" />
+				<Choice Option="Eastern" Value="Eastern Standard Time" />
+				<Choice Option="Mountain" Value="Mountain Standard Time" />
+				<Choice Option="Pacific" Value="Pacific Standard Time" />
+				<Choice Option="Alaska" Value="Alaskan Standard Time" />
+				<Choice Option="Arizona" Value="U.S. Mountain Standard Time" />
+			</ChoiceInput>
+		</Action> 
+		
+		<!-- Final Summary -->
+		<Action Type="Info" Name="FinalInfo" Title="Summary" ShowBack="True"  Timeout="30" TimeoutAction="Continue">
+		<![CDATA[<b>System name:</b> %OSDComputerName%
+		<br><b>OU:</b> %McKesson_TSOU%
+		]]>
+		</Action>
+						
+	</ActionGroup>	
+
+
+	<!--......................................................................................................................................................................-->
+	<!--......................................................................................................................................................................-->
+	
+	
+  </Actions>
+</UIpp>
+
+
