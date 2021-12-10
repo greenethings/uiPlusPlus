@@ -18,7 +18,7 @@
 	<Application Id="7-Zip" Label="7-Zip" Name="7-Zip 19.00"/>
 	<Application Id="Chrome 32bit" Label="Chrome 32bit" Name="Google Chrome 32bit for USON Task Sequence"/>
 	<Application Id="MS Office 2019 MSI (KMS Activation)" Label="MS Office 2019 MSI (KMS Activation)" Name="Global - Microsoft Office 2019 MSI (KMS Activation)"/>
-		<!-- Application Id="MyApps" Label="MyApps" Name="USON - Desktop Shortcut - Citrix MyApps - v1.5"/ -->
+	<Application Id="MyApps" Label="MyApps" Name="USON - Desktop Shortcut - Citrix MyApps - v1.5"/>
 		<!-- Application Id="RemedyForce" Label="RemedyForce" Name="USON - Desktop Shortcut - Remedy Force v.1.0"/ -->
 		<!-- Application Id="Self Service" Label="Self Service" Name="USON - Desktop Shortcut - USON Self Service Portal v.1.0"/ -->
 		<!-- Application Id="Workday" Label="Workday" Name="USON - Desktop Shortcut - Workday v.1.0"/ -->
