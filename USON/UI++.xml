@@ -17,28 +17,21 @@
 	<Application Id="Bomgar" Label="Bomgar" Name="USON - Application - Bomgar Agent (Universal) v.21.1.1"/>
 	<Application Id="7-Zip" Label="7-Zip" Name="7-Zip 19.00"/>
 	<Application Id="Chrome 32bit" Label="Chrome 32bit" Name="Google Chrome 32bit for USON Task Sequence"/>
+	<Application Id="MyApps" Label="MyApps" Name="USON - Desktop Shortcut - Citrix MyApps - v1.5"/>
+	<Application Id="RemedyForce" Label="RemedyForce" Name="USON - Desktop Shortcut - Remedy Force v.1.0"/>
+	<Application Id="Self Service" Label="Self Service" Name="USON - Desktop Shortcut - USON Self Service Portal v.1.0"/>
+	<Application Id="Workday" Label="Workday" Name="USON - Desktop Shortcut - Workday v.1.0"/>
+	<Application Id="Bomgar Button" Label="Bomgar Button" Name="USON - Desktop Shortcut - Bomgar Button v.1.0"/>
+	<Application Id="Learning Center" Label="Learning Center" Name="USON - Desktop Shortcut - Learning Center v.1.0"/>
+
+	<!-- USON Exam Room Specific Software  -->
 	<Application Id="MS Office 2019 MSI (KMS Activation)" Label="MS Office 2019 MSI (KMS Activation)" Name="Global - Microsoft Office 2019 MSI (KMS Activation)"/>
-		<!-- Application Id="MyApps" Label="MyApps" Name="USON - Desktop Shortcut - Citrix MyApps - v1.5"/ -->
-		<!-- Application Id="RemedyForce" Label="RemedyForce" Name="USON - Desktop Shortcut - Remedy Force v.1.0"/ -->
-		<!-- Application Id="Self Service" Label="Self Service" Name="USON - Desktop Shortcut - USON Self Service Portal v.1.0"/ -->
-		<!-- Application Id="Workday" Label="Workday" Name="USON - Desktop Shortcut - Workday v.1.0"/ -->
-		<!-- Application Id="Bomgar Button" Label="Bomgar Button" Name="USON - Desktop Shortcut - Bomgar Button v.1.0"/ -->
 
 	<!-- USON TXO Specific Software  -->
 	<Application Id="iKnowMed G2 Production (Texas Edition)" Label="iKnowMed G2 Production (Texas Edition)" Name="USON - Desktop Shortcut - iKnowMed G2 Production (Texas Edition) (Rev. 6)"/>
 	<Application Id="iKnowMed G2 Read-Only (Texas Edition)" Label="iKnowMed G2 Read-Only (Texas Edition)" Name="USON - Desktop Shortcut - iKnowMed G2 ReadOnly (Texas Edition) (Rev. 3)"/>
 	<Application Id="Remote Ops" Label="Remote Ops" Name="USON - Desktop Shortcut - RemoteOps x64 and x86"/>
-	<Application Id="MyApps" Label="MyApps" Name="USON - Desktop Shortcut - Citrix MyApps - v1.5"/>
-	<Application Id="RemedyForce" Label="RemedyForce" Name="USON - Desktop Shortcut - Remedy Force v.1.0"/>
-	<Application Id="Self Service" Label="Self Service" Name="USON - Desktop Shortcut - USON Self Service Portal v.1.0"/>
-	<Application Id="Workday" Label="Workday" Name="USON - Desktop Shortcut - Workday v.1.0"/>
-	<Application Id="Learning Center" Label="Learning Center" Name="USON - Desktop Shortcut - Learning Center v.1.0"/>
-	<Application Id="Bomgar Button" Label="Bomgar Button" Name="USON - Desktop Shortcut - Bomgar Button v.1.0"/>
 	<Application Id="Navigating Care" Label="Navigating Care" Name="USON - Desktop Shortcut - Navigating Care v.1.0"/>
-		<!-- Application Id="Bomgarx" Label="Bomgarx" Name="USON - Application - Bomgar Agent (Universal) v.21.1.1"/ -->
-		<!-- Application Id="7-Zipx" Label="7-Zipx" Name="7-Zip 19.00"/ -->
-		<!-- Application Id="Chrome 32bitx" Label="Chrome 32bitx" Name="Google Chrome 32bit for USON Task Sequence"/ -->
-		<!-- Application Id="MS Office 2019 MSI (KMS Activation)x" Label="MS Office 2019 MSI (KMS Activation)x" Name="Global - Microsoft Office 2019 MSI (KMS Activation)"/ -->
 
 	<!-- USON West Specific Software  -->
 	<Application Id="iKnowMed G2 Production" Label="iKnowMed G2 Production" Name="USON - Desktop Shortcut - iKnowMed G2 Production (REV3.1)"/>
@@ -419,7 +412,18 @@
 						<Action Type="Input" Name="ChooseUSONLocation" Title="Available Locations">
 							<ChoiceInput Variable="McKesson_TSOU" Question="Please choose location " Default="None" >
 										
-										<!-- USON TXO Region Location -->								
+										<!-- USON TXO Region Location -->
+								<Choice Option="TEST_TXO Central" Value="LDAP://OU=TEST,OU=Computers,OU=Central,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_TXO East" Value="LDAP://OU=TEST,OU=Computers,OU=East,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_TXO FtWorthMidCity" Value="LDAP://OU=TEST,OU=Computers,OU=FtWorthMidCity,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_TXO Gulf Coast" Value="LDAP://OU=TEST,OU=Computers,OU=Gulf Coast,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_TXO North" Value="LDAP://OU=TEST,OU=Computers,OU=North,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_TXO Proton" Value="LDAP://OU=TEST,OU=Computers,OU=Proton,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_TXO Sammons Cancer Center" Value="LDAP://OU=TEST,OU=Computers,OU=Sammons Cancer Center,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_TXO Rio Grand Valley" Value="LDAP://OU=TEST,OU=Computers,OU=South - Rio Grande Valley,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_TXO San Antonio" Value="LDAP://OU=TEST,OU=Computers,OU=San Antonio,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_TXO West" Value="LDAP://OU=TEST,OU=Computers,OU=West,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								
 								<Choice Option="TX_TXO Central" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=Central,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
 								<Choice Option="TX_TXO East" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=East,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
 								<Choice Option="TX_TXO FtWorthMidCity" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FtWorthMidCity,OU=TX_TXO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
@@ -523,7 +527,13 @@
 						<Action Type="Input" Name="ChooseUSONLocation" Title="Available Locations">
 							<ChoiceInput Variable="McKesson_TSOU" Question="Please choose location " Default="None" >
 										
-										<!-- USON West Region Location -->								
+										<!-- USON West Region Location -->
+								<Choice Option="TEST_VO_West" Value="LDAP://OU=TEST,OU=Computers,OU=VO_West,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_OR_Northwest Cancer Specialists (Portland)" Value="LDAP://OU=TEST,OU=Computers,OU=OR_Northwest Cancer Specialists (Portland),OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_OR_Oncology Associates of Oregon (Eugene)" Value="LDAP://OU=TEST,OU=Computers,OU=OR_Oncology Associates of Oregon (Eugene),OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_NV_Comprehensive Cancer Centers of Nevada" Value="LDAP://OU=TEST,OU=Computers,OU=NV_Comprehensive Cancer Centers of Nevada,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_AZ_Arizona Oncology Associates" Value="LDAP://OU=TEST,OU=Computers,OU=AZ_Arizona Oncology Associates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								
 								<Choice Option="VO_West" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=VO_West,OU=CSA,DC=uson,DC=usoncology,DC=int" />
 								<Choice Option="OR_Northwest Cancer Specialists (Portland)" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OR_Northwest Cancer Specialists (Portland),OU=CSA,DC=uson,DC=usoncology,DC=int" />
 								<Choice Option="OR_Oncology Associates of Oregon (Eugene)" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=OR_Oncology Associates of Oregon (Eugene),OU=CSA,DC=uson,DC=usoncology,DC=int" />
@@ -620,7 +630,16 @@
 						<Action Type="Input" Name="ChooseUSONLocation" Title="Available Locations">
 							<ChoiceInput Variable="McKesson_TSOU" Question="Please choose location " Default="None" >
 										
-										<!-- USON Central Region Location -->								
+										<!-- USON Central Region Location -->	
+								<Choice Option="TEST_MN_Minnesota Oncology Hematology" Value="LDAP://OU=TEST,OU=Computers,OU=MN_Minnesota Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_MO_Missouri Cancer Associates" Value="LDAP://OU=TEST,OU=Computers,OU=MO_Missouri Cancer Associates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_CO_Rocky Mountain Cancer Centers" Value="LDAP://OU=TEST,OU=Computers,OU=CO_Rocky Mountain Cancer Centers,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_IL_Affiliated Oncologists" Value="LDAP://OU=TEST,OU=Computers,OU=OU=IL_Affiliated Oncologists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_IL_IllinoisCancerSpecialists" Value="LDAP://OU=TEST,OU=Computers,OU=IL_IllinoisCancerSpecialists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_US_Mountain West RBO" Value="LDAP://OU=TEST,OU=Computers,OU=US_Mountain West RBO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VO_Midwest" Value="LDAP://OU=TEST,OU=Computers,OU=VO_Midwest,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								
+
 								<Choice Option="MN_Minnesota Oncology Hematology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=MN_Minnesota Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
 								<Choice Option="MO_Missouri Cancer Associates" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=MO_Missouri Cancer Associates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
 								<Choice Option="CO_Rocky Mountain Cancer Centers" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=CO_Rocky Mountain Cancer Centers,OU=CSA,DC=uson,DC=usoncology,DC=int" />
@@ -719,7 +738,23 @@
 						<Action Type="Input" Name="ChooseUSONLocation" Title="Available Locations">
 							<ChoiceInput Variable="McKesson_TSOU" Question="Please choose location " Default="None" >
 										
-										<!-- USON Northeast Region Location -->								
+										<!-- USON Northeast Region Location -->	
+								<Choice Option="TEST_DE_Medical Oncology Hematology Consultants" Value="LDAP://OU=TEST,OU=Computers,OU=DE_Medical Oncology Hematology Consultants,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_MD_Maryland Oncology Hematology" Value="LDAP://OU=TEST,OU=Computers,OU=MD_Maryland Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_NY_New York Oncology Hematology" Value="LDAP://OU=TEST,OU=Computers,OU=NY_New York Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_OH_Hope Center for Cancer Care" Value="LDAP://OU=TEST,OU=Computers,OU=OH_Hope Center for Cancer Care,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_OH_Oncology Hematology Care" Value="LDAP://OU=TEST,OU=Computers,OU=OH_Oncology Hematology Care,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_PA_Consultants of Medical Oncology and Hemtology" Value="LDAP://OU=TEST,OU=Computers,OU=PA_Consultants of Medical Oncology and Hemtology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VA_Blue Ridge Cancer Centers" Value="LDAP://OU=TEST,OU=Computers,OU=VA_Blue Ridge Cancer Centers,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VA_Shenandoah Oncology" Value="LDAP://OU=TEST,OU=Computers,OU=VA_Shenandoah Oncology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VA_Virginia Cancer Specialists" Value="LDAP://OU=TEST,OU=Computers,OU=VA_Virginia Cancer Specialists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VA_Virginia Oncology Associates" Value="LDAP://OU=TEST,OU=Computers,OU=VA_Virginia Oncology Associates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VO_CBO" Value="LDAP://OU=OU=TEST,OU=Computers,OU=VO_CBO,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VO_Kentuckiana" Value="LDAP://OU=TEST,OU=Computers,OU=VO_Kentuckiana,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VO_Northeast" Value="LDAP://OU=TEST,OU=Computers,OU=VO_Northeast,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VO_Rhode Island" Value="LDAP://OU=TEST,OU=Computers,OU=VO_Rhode Island,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+																
+
 								<Choice Option="DE_Medical Oncology Hematology Consultants" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=DE_Medical Oncology Hematology Consultants,OU=CSA,DC=uson,DC=usoncology,DC=int" />
 								<Choice Option="MD_Maryland Oncology Hematology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=MD_Maryland Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
 								<Choice Option="NY_New York Oncology Hematology" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=NY_New York Oncology Hematology,OU=CSA,DC=uson,DC=usoncology,DC=int" />
@@ -825,7 +860,19 @@
 						<Action Type="Input" Name="ChooseUSONLocation" Title="Available Locations">
 							<ChoiceInput Variable="McKesson_TSOU" Question="Please choose location " Default="None" >
 										
-										<!-- USON Southeast Region Location -->								
+										<!-- USON Southeast Region Location -->	
+								<Choice Option="TEST_AL_SouthernCancerCenter" Value="LDAP://OU=TEST,OU=Computers,OU=AL_SouthernCancerCenter,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_FL_Advanced Medical Specialties" Value="LDAP://OU=TEST,OU=Computers,OU=FL_Advanced Medical Specialties,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_FL_Cancer Care Centers of Brevard" Value="LDAP://OU=TEST,OU=Computers,OU=FL_Cancer Care Centers of Brevard,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_FL_Florida Cancer Affiliates" Value="LDAP://OU=TEST,OU=Computers,OU=FL_Florida Cancer Affiliates,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_FL_South Florida Oncology and Hematology Consultants" Value="LDAP://OU=TEST,OU=Computers,OU=FL_South Florida Oncology and Hematology Consultants,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_FL_Urology Specialist of West Florida" Value="LDAP://OU=TEST,OU=Computers,OU=FL_Urology Specialist of West Florida,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_FL_Woodlands Medical Specialists" Value="LDAP://OU=TEST,OU=Computers,OU=FL_WoodlandsMedicalSpecialists,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_NC_Cancer Centers of North Carolina" Value="LDAP://OU=TEST,OU=Computers,OU=NC_Cancer Centers of North Carolina,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VO_Southeast" Value="LDAP://OU=TEST,OU=Computers,OU=VO_Southeast,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								<Choice Option="TEST_VO_Georgia" Value="LDAP://OU=TEST,OU=Computers,OU=VO_Georgia,OU=CSA,DC=uson,DC=usoncology,DC=int" />
+								
+
 								<Choice Option="AL_SouthernCancerCenter" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=AL_SouthernCancerCenter,OU=CSA,DC=uson,DC=usoncology,DC=int" />
 								<Choice Option="FL_Advanced Medical Specialties" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_Advanced Medical Specialties,OU=CSA,DC=uson,DC=usoncology,DC=int" />
 								<Choice Option="FL_Cancer Care Centers of Brevard" Value="LDAP://OU=%OSDComputerType%,OU=Computers,OU=FL_Cancer Care Centers of Brevard,OU=CSA,DC=uson,DC=usoncology,DC=int" />
